@@ -1,0 +1,157 @@
+#bd1{
+    text-align: center;
+}
+input{
+    padding: 10px;
+    margin: 10px;
+}
+
+#mail{
+    margin-bottom:35px;
+}
+
+.stopka {
+    display: block;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 17%;
+    background-image: url(stopka.jpg);
+    color: black;
+    padding-left: 30px;
+  }
+
+fieldset{
+    display: inline-block;
+    width: 60%;
+    max-width: 70%;
+    min-width: 30%; 
+    height:100%;
+    
+}
+
+.stopka p{
+    text-align: left;
+    margin-bottom: -0.1vh;
+    padding: 0px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 1.56vh;
+    font-weight: bold;
+}
+
+#kontakt{
+    margin: 0px;
+    margin-top: 1vh;
+    font-size: 1.76vh;
+}
+
+
+#skleprow{
+    font-style: italic;
+}
+
+.naglowek {
+    margin: 0px;
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 15%;
+    background-image: url(naglowek.jpg);
+    color: black;
+    padding-left: 30px;
+    font-size: 5.20vh ;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    color: bisque;
+    text-shadow: 1px 1px 2px brown;
+
+}
+
+#tytulForm{
+    font-weight: bold;
+    font-style: italic;
+    font-size: xx-large;
+    color: aquamarine;
+
+}
+
+table{
+    margin-top:9%;
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10%;
+}
+
+#imgfull{
+    width:100%;
+}
+
+#srodek td{
+    
+    border: 0px;
+    border-color: black;
+    border-style: dashed;
+    height: 100%;
+}
+
+div.div1 {
+    
+    display:inline-block;
+    grid-template-columns: max-content max-content;
+    grid-gap:5px;
+
+}
+
+#bdmain{
+    text-align: center;
+}
+
+div.div1 label{
+    text-align: right; 
+}
+
+div.div1 label:after{
+    content: ":"; 
+}
+
+#zdjeciarowerow{
+    display:inline-block;
+    margin: auto;
+}
+
+#zdjeciarowerow img{
+    width: 35%;
+    height: auto;
+}
+
+#td1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#td4{
+    overflow-wrap: break-word;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+}
+
+img{
+    border: 2px solid rgba(198, 180, 189, 0.565);
+    border-radius: 0.41vh;
+    box-shadow: 0.52vh 0.2vh rgb(160, 184, 215);
+    padding: 1.04vh;
+    margin: 0.52vh;
+}
+
+#imgrowerduze{
+    border: none;
+    margin: 0px;
+    margin-left: -10px;
+    width: 100%;
+}
